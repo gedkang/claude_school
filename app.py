@@ -8,7 +8,7 @@ st.set_page_config(page_title="시청가구수 대시보드", layout="wide")
 st.title("홈앤쇼핑 시청가구수 대시보드")
 
 try:
-    csv_path = r'c:\biyam_work\viewing_data_2.csv'
+    csv_path = 'viewing_data_2.csv'
     df = pd.read_csv(csv_path)
     df['시간'] = pd.to_datetime(df['시간'])
 
