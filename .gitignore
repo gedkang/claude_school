@@ -5,6 +5,12 @@
 .env
 .env.local
 
+# MCP 설정 (프로젝트 ID 포함)
+.mcp.json
+
+# Claude Code 로컬 설정
+.claude/settings.local.json
+
 # Python
 __pycache__/
 *.py[cod]
